@@ -1,0 +1,6 @@
+name: GirisWebhook
+version: '${version}'
+main: com.girismod.GirisWebhookPlugin
+api-version: '1.21'
+author: You
+description: "/giriş ile başlayan komutları ve sohbet mesajlarını Discord webhook'una iletir."

